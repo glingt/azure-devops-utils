@@ -1,0 +1,7 @@
+{
+  "name": "azure-devops-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/glingt/azure-devops-utils.git",
+  "license": "MIT"
+}
