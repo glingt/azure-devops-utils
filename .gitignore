@@ -1,1 +1,3 @@
 /node_modules
+/dist
+.ado-config.js

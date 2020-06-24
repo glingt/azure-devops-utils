@@ -3,5 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/glingt/azure-devops-utils.git",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "bin": {
+    "ado": "dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "azure-devops-node-api": "^10.1.1",
+    "import-cwd": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^15.0.5",
+    "prettier": "^2.0.5",
+    "yargs": "^15.3.1"
+  }
 }
